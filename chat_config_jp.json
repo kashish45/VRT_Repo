@@ -1,0 +1,306 @@
+{
+  "data": {
+    "en": [
+      {
+        "label": "Domain",
+        "key": "domain",
+        "icon": "topic",
+        "data": [
+          {
+            "title": "Domain",
+            "key": "domain",
+            "options": [
+              {
+                "title": "Healthcare",
+                "value": "Healthcare"
+              },
+              {
+                "title": "Technology",
+                "value": "Technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Customer Details",
+        "key": "customer_id",
+        "icon": "customer",
+        "data": [
+          {
+            "title": "Customer",
+            "key": "customer_id",
+            "options": []
+          }
+        ]
+      },
+      {
+        "label": "Difficulty",
+        "key": "difficulty",
+        "icon": "difficulty",
+        "data": [
+          {
+            "title": "Difficulty",
+            "key": "difficulty",
+            "options": [
+              {
+                "title": "Easy",
+                "value": "Easy",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "Medium",
+                "value": "Medium",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "Hard",
+                "value": "Hard",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "Easy",
+                "value": "Easy",
+                "domain": "Technology"
+              },
+              {
+                "title": "Medium",
+                "value": "Medium",
+                "domain": "Technology"
+              },
+              {
+                "title": "Hard",
+                "value": "Hard",
+                "domain": "Technology"
+              },
+              {
+                "title": "Random",
+                "value": "Random"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Customer Segment",
+        "key": "customer_segment",
+        "icon": "topic",
+        "data": [
+          {
+            "title": "Customer Segment",
+            "key": "customer_segment",
+            "options": [
+              {
+                "title": "Loyalist",
+                "value": "Loyalist",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "Switcher",
+                "value": "Switcher",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "New User",
+                "value": "New User",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "Loyalist",
+                "value": "Loyalist",
+                "domain": "Technology"
+              },
+              {
+                "title": "Switcher",
+                "value": "Switcher",
+                "domain": "Technology"
+              },
+              {
+                "title": "New User",
+                "value": "New User",
+                "domain": "Technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Last Interaction",
+        "key": "last_interaction",
+        "icon": "topic",
+        "data": [
+          {
+            "title": "Last Interaction",
+            "key": "last_interaction",
+            "options": [
+              {
+                "title": "Last week",
+                "value": "Last week",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "Last month",
+                "value": "Last month",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "3 months ago",
+                "value": "3 months ago",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "Never",
+                "value": "Never",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "Last week",
+                "value": "Last week",
+                "domain": "Technology"
+              },
+              {
+                "title": "Last month",
+                "value": "Last month",
+                "domain": "Technology"
+              },
+              {
+                "title": "3 months ago",
+                "value": "3 months ago",
+                "domain": "Technology"
+              },
+              {
+                "title": "Never",
+                "value": "Never",
+                "domain": "Technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Interaction Type",
+        "key": "interaction_type",
+        "icon": "topic",
+        "data": [
+          {
+            "title": "Interaction Type",
+            "key": "interaction_type",
+            "options": [
+              {
+                "title": "In-clinic",
+                "value": "In-clinic",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "On call",
+                "value": "On call",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "On call",
+                "value": "On call",
+                "domain": "Technology"
+              },
+              {
+                "title": "In a convention",
+                "value": "In a convention",
+                "domain": "Technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Customer Concerns",
+        "key": "customer_concerns",
+        "icon": "topic",
+        "data": [
+          {
+            "title": "Customer Concerns",
+            "key": "customer_concerns",
+            "options": [
+              {
+                "title": "Safety and efficacy",
+                "value": "Safety and efficacy",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "Dosage and administration",
+                "value": "Dosage and administration",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "Side effects/adverse effects",
+                "value": "Side effects/adverse effects",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "Cost and insurance",
+                "value": "Cost and insurance",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "Reliability and Support",
+                "value": "Reliability and Support",
+                "domain": "Technology"
+              },
+              {
+                "title": "Scalability and Security",
+                "value": "Scalability and Security",
+                "domain": "Technology"
+              },
+              {
+                "title": "Pricing and Discount",
+                "value": "Pricing and Discount",
+                "domain": "Technology"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "jp": [
+      {
+        "label": "顧客プロフィール",
+        "key": "customer_id",
+        "icon": "customer",
+        "data": [
+          {
+            "title": "顧客",
+            "key": "customer_id",
+            "options": []
+          }
+        ]
+      },
+      {
+        "label": "難易度",
+        "key": "difficulty",
+        "icon": "difficulty",
+        "data": [
+          {
+            "title": "困難",
+            "key": "difficulty",
+            "options": [
+              {
+                "title": "低",
+                "value": "低"
+              },
+              {
+                "title": "中",
+                "value": "中"
+              },
+              {
+                "title": "高",
+                "value": "高"
+              },
+              {
+                "title": "ランダム",
+                "value": "ランダム"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+    "data": [
+    {
+      "label": "Topic Details",
+      "key": "topic",
+      "icon": "topic",
+      "data": [
+        {
+          "title": "Domain",
+          "key": "domain",
+          "options": [
+            {
+              "title": "Healthcare",
+              "value": "Healthcare"
+            },
+            {
+              "title": "Retail",
+              "value": "Retail"
+            },
+            {
+              "title": "Technology",
+              "value": "Technology"
+            },
+            {
+              "title": "Finance",
+              "value": "Finance"
+            }
+          ]
+        },
+        {
+          "title": "Topic",
+          "key": "topic",
+          "options": [
+            {
+              "title": "Pricing Negotiation",
+              "value": "Pricing Negotiation"
+            },
+            {
+              "title": "Introduction and Product benefit",
+              "value": "Introduction and Product benefit"
+            },
+            {
+              "title": "Contract Negotiation",
+              "value": "Contract Negotiation"
+            }
+          ]
+        },
+        {
+          "title": "Objective",
+          "key": "objective",
+          "options": [
+            {
+              "title": "Achieve Favourable pricing",
+              "value": "Achieve Favourable pricing"
+            },
+            {
+              "title": "Invite to a meeting or event",
+              "value": "Invite to a meeting or event"
+            },
+            {
+              "title": "Deepen Relationship",
+              "value": "Deepen Relationship"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Difficulty",
+      "key": "difficulty",
+      "icon": "difficulty",
+      "data": [
+        {
+          "title": "Difficulty",
+          "key": "difficulty",
+          "options": [
+            {
+              "title": "Easy",
+              "value": "Easy"
+            },
+            {
+              "title": "Medium",
+              "value": "Medium"
+            },
+            {
+              "title": "Hard",
+              "value": "Hard"
+            },
+            {
+              "title": "Random",
+              "value": "Random"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Customer Details",
+      "key": "customer_id",
+      "icon": "customer",
+      "data": [
+        {
+          "title": "Customer",
+          "key": "customer_id",
+          "options": [
+          ]
+        }
+      ]
+    }
+  ]
+}

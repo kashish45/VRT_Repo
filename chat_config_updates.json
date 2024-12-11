@@ -1,0 +1,498 @@
+{
+  "data": {
+    "en": [
+      {
+        "label": "Domain",
+        "key": "domain",
+        "icon": "topic",
+        "data": [
+          {
+            "title": "Domain",
+            "key": "domain",
+            "selection_type": "box",
+            "options": [
+              {
+                "title": "Healthcare",
+                "value": "Healthcare"
+              },
+              {
+                "title": "Technology",
+                "value": "Technology"
+              },
+              {
+                "title": "Coaching",
+                "value": "Coaching"
+              },
+              {
+                "title": "Hospitality",
+                "value": "Hospitality"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Customer Details",
+        "key": "customer_id",
+         "selection_type": "box",
+        "icon": "customer",
+        "data": [
+          {
+            "title": "Customer",
+            "key": "customer_id",
+            "options": []
+          }
+        ]
+      },
+      {
+        "label": "Topic Details",
+        "key": "difficulty",
+        "icon": "difficulty",
+        "data": [
+          {
+            "title": "Personality Type",
+            "key": "difficulty",
+            "selection_type": "box",
+            "options": [
+              {
+                "title": "Advocate",
+                "value": "Advocate",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "Indifferent",
+                "value": "Indifferent",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "One-Timers",
+                "value": "One-Timers",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "Resistant",
+                "value": "Resistant",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "Easy",
+                "value": "Easy",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "Medium",
+                "value": "Medium",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "Hard",
+                "value": "Hard",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "Random",
+                "value": "Random",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "Easy",
+                "value": "Easy",
+                "domain": "Technology"
+              },
+              {
+                "title": "Medium",
+                "value": "Medium",
+                "domain": "Technology"
+              },
+              {
+                "title": "Hard",
+                "value": "Hard",
+                "domain": "Technology"
+              },
+              {
+                "title": "Easy",
+                "value": "Easy",
+                "domain": "Hospitality"
+              },
+              {
+                "title": "Medium",
+                "value": "Medium",
+                "domain": "Hospitality"
+              },
+              {
+                "title": "Hard",
+                "value": "Hard",
+                "domain": "Hospitality"
+              },
+              {
+                "title": "Random",
+                "value": "Random",
+                "domain": "Hospitality"
+              },
+              {
+                "title": "Random",
+                "value": "Random",
+                "domain": "Coaching"
+              }
+            ]
+          },
+          {
+            "title": "Customer Segment",
+            "key": "customer_segment",
+            "selection_type": "box",
+            "options": [{
+                "title": "Loyalist",
+                "value": "Loyalist",
+                "domain": "Healthcare",
+                "customer_id": "5JzlSSIrk1"
+              },
+              {
+                "title": "New User",
+                "value": "New User",
+                "domain": "Healthcare",
+                "customer_id": "5JzlSSIrk1"
+              },
+              {
+                "title": "Switcher",
+                "value": "Switcher",
+                "domain": "Healthcare",
+                "customer_id": "5JzlSSIrk1"
+              },
+              {
+                "title": "Loyalist",
+                "value": "Loyalist",
+                "domain": "Healthcare",
+                "customer_id": "R20zlSSIrk"
+              },
+              {
+                "title": "New User",
+                "value": "New User",
+                "domain": "Healthcare",
+                "customer_id": "R20zlSSIrk"
+              },
+              {
+                "title": "Switcher",
+                "value": "Switcher",
+                "domain": "Healthcare",
+                "customer_id": "R20zlSSIrk"
+              },
+              {
+                "title": "Loyalist",
+                "value": "Loyalist",
+                "domain": "Healthcare",
+                "customer_id": "5JzlSSIpDL"
+              },
+              {
+                "title": "New User",
+                "value": "New User",
+                "domain": "Healthcare",
+                "customer_id": "5JzlSSIpDL"
+              },
+              {
+                "title": "Switcher",
+                "value": "Switcher",
+                "domain": "Healthcare",
+                "customer_id": "5JzlSSIpDL"
+              },
+              {
+                "title": "Loyalist",
+                "value": "Loyalist",
+                "domain": "Technology",
+                "customer_id": "Cf9gHxY7Wq"
+              },
+              {
+                "title": "New User",
+                "value": "New User",
+                "domain": "Technology",
+                "customer_id": "Cf9gHxY7Wq"
+              },
+              {
+                "title": "Switcher",
+                "value": "Switcher",
+                "domain": "Technology",
+                "customer_id": "Cf9gHxY7Wq"
+              },
+              {
+                "title": "Loyalist",
+                "value": "Loyalist",
+                "domain": "Technology",
+                "customer_id": "UjHdB6HQKV"
+              },
+              {
+                "title": "New User",
+                "value": "New User",
+                "domain": "Technology",
+                "customer_id": "UjHdB6HQKV"
+              },
+              {
+                "title": "Switcher",
+                "value": "Switcher",
+                "domain": "Technology",
+                "customer_id": "UjHdB6HQKV"
+              }]
+          },
+          {
+            "title": "Last Interaction (in weeks)",
+            "key": "last_interaction",
+            "selection_type": "slider",
+            "min_value": 0,
+            "max_value": 20
+          },
+          {
+            "title": "Years of Experience",
+            "key": "y_o_p",
+            "selection_type": "slider",
+            "min_value": 0,
+            "max_value": 30
+          },  
+          {
+            "title": "Interaction Type",
+            "key": "interaction_type",
+            "selection_type": "box",
+            "options": [
+              {"title": "On call",
+                "value": "On call",
+                "domain": "Technology",
+                "customer_id": "Cf9gHxY7Wq"},
+              {"title": "At a convention",
+                "value": "At a convention",
+                "domain": "Technology",
+                "customer_id": "Cf9gHxY7Wq"},
+              {"title": "On call",
+                "value": "On call",
+                "domain": "Technology",
+                "customer_id": "UjHdB6HQKV"},
+              {"title": "At a convention",
+                "value": "At a convention",
+                "domain": "Technology",
+                "customer_id": "UjHdB6HQKV"},
+              {"title": "In-clinic",
+                "value": "In-clinic",
+                "domain": "Healthcare",
+                "customer_id": "5JzlSSIrk1"},
+              {"title": "On call",
+                "value": "On call",
+                "domain": "Healthcare",
+                "customer_id": "5JzlSSIrk1"},
+              {"title": "In-clinic",
+                "value": "In-clinic",
+                "domain": "Healthcare",
+                "customer_id": "R20zlSSIrk"},
+              {"title": "On call",
+                "value": "On call",
+                "domain": "Healthcare",
+                "customer_id": "R20zlSSIrk"},
+              {"title": "In-clinic",
+                "value": "In-clinic",
+                "domain": "Healthcare",
+                "customer_id": "5JzlSSIpDL"},
+              {"title": "On call",
+                "value": "On call",
+                "domain": "Healthcare",
+                "customer_id": "5JzlSSIpDL"}
+            ]
+          },
+          {
+            "title": "Customer Concerns",
+            "key": "customer_concerns",
+            "selection_type": "box",
+            "options": [{
+                "title": "Safety and efficacy",
+                "value": "Safety and efficacy",
+                "domain": "Healthcare",
+                "customer_id": "5JzlSSIrk1"
+              },
+              {
+                "title": "Dosage and administration",
+                "value": "Dosage and administration",
+                "domain": "Healthcare",
+                "customer_id": "5JzlSSIrk1"
+              },
+              {
+                "title": "Side effects/adverse effects",
+                "value": "Side effects/adverse effects",
+                "domain": "Healthcare",
+                "customer_id": "5JzlSSIrk1"
+              },
+              {
+                "title": "Cost and insurance",
+                "value": "Cost and insurance",
+                "domain": "Healthcare",
+                "customer_id": "5JzlSSIrk1"
+              },
+              {
+                "title": "Safety and efficacy",
+                "value": "Safety and efficacy",
+                "domain": "Healthcare",
+                "customer_id": "R20zlSSIrk"
+              },
+              {
+                "title": "Dosage and administration",
+                "value": "Dosage and administration",
+                "domain": "Healthcare",
+                "customer_id": "R20zlSSIrk"
+              },
+              {
+                "title": "Side effects/adverse effects",
+                "value": "Side effects/adverse effects",
+                "domain": "Healthcare",
+                "customer_id": "R20zlSSIrk"
+              },
+              {
+                "title": "Cost and insurance",
+                "value": "Cost and insurance",
+                "domain": "Healthcare",
+                "customer_id": "R20zlSSIrk"
+              },
+              {
+                "title": "Safety and efficacy",
+                "value": "Safety and efficacy",
+                "domain": "Healthcare",
+                "customer_id": "5JzlSSIpDL"
+              },
+              {
+                "title": "Dosage and administration",
+                "value": "Dosage and administration",
+                "domain": "Healthcare",
+                "customer_id": "5JzlSSIpDL"
+              },
+              {
+                "title": "Side effects/adverse effects",
+                "value": "Side effects/adverse effects",
+                "domain": "Healthcare",
+                "customer_id": "5JzlSSIpDL"
+              },
+              {
+                "title": "Cost and insurance",
+                "value": "Cost and insurance",
+                "domain": "Healthcare",
+                "customer_id": "5JzlSSIpDL"
+              },
+              {
+                "title": "Reliability and Support",
+                "value": "Reliability and Support",
+                "domain": "Technology",
+                "customer_id": "Cf9gHxY7Wq"
+              },
+              {
+                "title": "Security and scalability",
+                "value": "Security and scalability",
+                "domain": "Technology",
+                "customer_id": "Cf9gHxY7Wq"
+              },
+              {
+                "title": "Pricing and Discount",
+                "value": "Pricing and Discount",
+                "domain": "Technology",
+                "customer_id": "Cf9gHxY7Wq"
+              },
+              {
+                "title": "Reliability and Support",
+                "value": "Reliability and Support",
+                "domain": "Technology",
+                "customer_id": "UjHdB6HQKV"
+              },
+              {
+                "title": "Security and scalability",
+                "value": "Security and scalability",
+                "domain": "Technology",
+                "customer_id": "UjHdB6HQKV"
+              },
+              {
+                "title": "Pricing and Discount",
+                "value": "Pricing and Discount",
+                "domain": "Technology",
+                "customer_id": "UjHdB6HQKV"
+              }]
+          }
+        ]
+      }
+    ],
+    "jp": [
+      {
+        "label": "お客様情報",
+        "key": "customer_id",
+        "icon": "customer",
+        "data": [
+          {
+            "title": "お客様",
+            "key": "customer_id",
+            "options": []
+          }
+        ]
+      },
+      {
+        "label": "困難",
+        "key": "difficulty",
+        "icon": "difficulty",
+        "data": [
+          {
+            "title": "困難",
+            "key": "difficulty",
+            "options": [
+              {
+                "title": "低",
+                "value": "低"
+              },
+              {
+                "title": "中",
+                "value": "中"
+              },
+              {
+                "title": "高",
+                "value": "高"
+              },
+              {
+                "title": "任意",
+                "value": "任意"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "最後のやりとり",
+        "key": "last_interaction",
+        "icon": "last_interaction",
+        "data": [
+          {
+            "title": "最後のやりとり",
+            "key": "last_interaction",
+            "options": [
+              {
+                "title": "初回インタラクション",
+                "value": "初回インタラクション"
+              },
+              {
+                "title": "先月",
+                "value": "先月"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "インタラクションタイプ",
+        "key": "interaction_type",
+        "icon": "interaction_type",
+        "data": [
+          {
+            "title": "インタラクションタイプ",
+            "key": "interaction_type",
+            "options": [
+              {
+                "title": "医師のオフィス内",
+                "value": "医師のオフィス内"
+              },
+              {
+                "title": "バーチャル会議",
+                "value": "バーチャル会議"
+              }
+            ]
+          }
+        ]
+      }
+
+    ]
+  }
+}

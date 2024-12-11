@@ -1,0 +1,250 @@
+{
+  "data": {
+    "en": [
+      {
+        "label": "Domain",
+        "key": "domain",
+        "icon": "topic",
+        "data": [
+          {
+            "title": "Domain",
+            "key": "domain",
+            "options": [
+              {
+                "title": "Healthcare",
+                "value": "Healthcare"
+              },
+              {
+                "title": "Technology",
+                "value": "Technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Customer Details",
+        "key": "customer_id",
+        "icon": "customer",
+        "data": [
+          {
+            "title": "Customer",
+            "key": "customer_id",
+            "options": []
+          }
+        ]
+      },
+      {
+        "label": "Topic Details",
+        "key": "difficulty",
+        "icon": "difficulty",
+        "data": [
+          {
+            "title": "Difficulty",
+            "key": "difficulty",
+            "selection_type": "box",
+            "options": [
+              {
+                "title": "Easy",
+                "value": "Easy",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "Medium",
+                "value": "Medium",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "Hard",
+                "value": "Hard",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "Easy",
+                "value": "Easy",
+                "domain": "Technology"
+              },
+              {
+                "title": "Medium",
+                "value": "Medium",
+                "domain": "Technology"
+              },
+              {
+                "title": "Hard",
+                "value": "Hard",
+                "domain": "Technology"
+              },
+              {
+                "title": "Random",
+                "value": "Random"
+              }
+            ]
+          },
+          {
+            "title": "Customer Segment",
+            "key": "customer_segment",
+            "selection_type": "box",
+            "options": [
+              {
+                "title": "Loyalist",
+                "value": "Loyalist",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "Switcher",
+                "value": "Switcher",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "New User",
+                "value": "New User",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "Loyalist",
+                "value": "Loyalist",
+                "domain": "Technology"
+              },
+              {
+                "title": "Switcher",
+                "value": "Switcher",
+                "domain": "Technology"
+              },
+              {
+                "title": "New User",
+                "value": "New User",
+                "domain": "Technology"
+              }
+            ]
+          },
+          {
+            "title": "Last Interaction",
+            "key": "last_interaction",
+            "selection_type": "slider",
+            "min_value": 0,
+            "max_value": 20
+          },
+          {
+            "title": "Years of Experience",
+            "key": "y_o_p",
+            "selection_type": "slider",
+            "min_value": 0,
+            "max_value": 30
+          },  
+          {
+            "title": "Interaction Type",
+            "key": "interaction_type",
+            "selection_type": "box",
+            "options": [
+              {
+                "title": "In-clinic",
+                "value": "In-clinic",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "On call",
+                "value": "On call",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "On call",
+                "value": "On call",
+                "domain": "Technology"
+              },
+              {
+                "title": "In a convention",
+                "value": "In a convention",
+                "domain": "Technology"
+              }
+            ]
+          },
+          {
+            "title": "Customer Concerns",
+            "key": "customer_concerns",
+            "selection_type": "box",
+            "options": [
+              {
+                "title": "Safety and efficacy",
+                "value": "Safety and efficacy",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "Dosage and administration",
+                "value": "Dosage and administration",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "Side effects/adverse effects",
+                "value": "Side effects/adverse effects",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "Cost and insurance",
+                "value": "Cost and insurance",
+                "domain": "Healthcare"
+              },
+              {
+                "title": "Reliability and Support",
+                "value": "Reliability and Support",
+                "domain": "Technology"
+              },
+              {
+                "title": "Scalability and Security",
+                "value": "Scalability and Security",
+                "domain": "Technology"
+              },
+              {
+                "title": "Pricing and Discount",
+                "value": "Pricing and Discount",
+                "domain": "Technology"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "jp": [
+      {
+        "label": "お客様情報",
+        "key": "customer_id",
+        "icon": "customer",
+        "data": [
+          {
+            "title": "お客様",
+            "key": "customer_id",
+            "options": []
+          }
+        ]
+      },
+      {
+        "label": "困難",
+        "key": "difficulty",
+        "icon": "difficulty",
+        "data": [
+          {
+            "title": "困難",
+            "key": "difficulty",
+            "options": [
+              {
+                "title": "低",
+                "value": "低"
+              },
+              {
+                "title": "中",
+                "value": "中"
+              },
+              {
+                "title": "高",
+                "value": "高"
+              },
+              {
+                "title": "任意",
+                "value": "任意"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

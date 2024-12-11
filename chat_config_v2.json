@@ -1,0 +1,93 @@
+{
+    "data": {
+                "en" : [
+                        {
+                          "label": "Customer Details",
+                          "key": "customer_id",
+                          "icon": "customer",
+                          "data": [
+                            {
+                              "title": "Customer",
+                              "key": "customer_id",
+                              "options": [
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Difficulty",
+                          "key": "difficulty",
+                          "icon": "difficulty",
+                          "data": [
+                            {
+                              "title": "Difficulty",
+                              "key": "difficulty",
+                              "options": [
+                                {
+                                  "title": "Easy",
+                                  "value": "Easy"
+                                },
+                                {
+                                  "title": "Medium",
+                                  "value": "Medium"
+                                },
+                                {
+                                  "title": "Hard",
+                                  "value": "Hard"
+                                },
+                                {
+                                  "title": "Random",
+                                  "value": "Random"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                "jp" : [
+                        {
+                            "label": "顧客プロフィール",
+                            "key": "customer_id",
+                            "icon": "customer",
+                            "data": [
+                                {
+                                    "title": "顧客",
+                                    "key": "customer_id",
+                                    "options": [
+                                      ]
+                                }
+                              ]
+                            },
+                        {
+                          "label": "難易度",
+                          "key": "difficulty",
+                          "icon": "difficulty",
+                          "data": [
+                            {
+                              "title": "困難",
+                              "key": "difficulty",
+                              "options": [
+                                {
+                                  "title": "低",
+                                  "value": "低"
+                                },
+                                {
+                                  "title": "中",
+                                  "value": "中"
+                                },
+                                {
+                                  "title": "高",
+                                  "value": "高"
+                                },
+                                {
+                                  "title": "ランダム",
+                                  "value": "ランダム"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]       
+        }
+
+    }
